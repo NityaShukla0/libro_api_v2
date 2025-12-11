@@ -321,7 +321,7 @@ git push origin v1.0.0
 
 ---
 
-## Self-reflection (short)
+## Self-reflection 
 
 What I learned:
 
@@ -339,8 +339,3 @@ Challenges & how I overcame them:
 * Schema/tables not present during tests: added `create_tables.py` and recommended running migrations in README so tests have tables.
 * Unique constraint errors when re-running manual curl tests — addressed by checking for existing resources first in the API or using idempotent endpoints for tests.
 
----
-
-## TODO / Next steps
-
-* Add authentication (JWT) and r
